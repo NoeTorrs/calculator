@@ -55,7 +55,7 @@ $(document).ready(function(){
 		var $valcont = ''
 		if ($value.length ==1){
 			$('#value').val(0)
-			$pastvalue = '0' 
+			$pastvalue = '' 
 		}
 		else {
 			for (var i=0;i<$value.length-1;i++){
